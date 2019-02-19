@@ -1,0 +1,51 @@
+{
+    "app_id": "fa8fbac60bde9d8deba3dc9d9dd401",
+    "collection_id": "fc8fbac60bfa86b0f8c4b4dce4a401",
+    "items": [
+        {
+            "area_type_id": "0d1d20e4-55e8-4cd2-b2e1-033bafa9a06f",
+            "coordinates": "[{\"x\":5,\"y\":5},{\"x\":100,\"y\":5},{\"x\":100,\"y\":100},{\"x\":5,\"y\":100}]",
+            "item_id": "8140ac78-44c5-4156-9a87-a5c0f141851d",
+            "name": "square",
+            "section_color": "rgba(114,9,0,0.5)"
+        },
+        {
+            "area_type_id": "b0179e10-5509-49e9-9fdb-8cc413913f08",
+            "coordinates": "[{\"x\":1,\"y\":1},{\"x\":40,\"y\":1},{\"x\":40,\"y\":70}]",
+            "item_id": "f459265c-2098-49bf-8ec9-7266280aed9b",
+            "name": "triangle",
+            "section_color": "rgba(83,27,147,0.5)"
+        }
+    ],
+    "name": "areas",
+    "permissions": {
+        "Administrator": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "coordinates",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "section_color",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "area_type_id",
+            "ColumnType": "uuid",
+            "PK": false
+        }
+    ]
+}
