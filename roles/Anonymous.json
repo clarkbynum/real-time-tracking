@@ -31,13 +31,7 @@
         "MsgHistory": {
             "Level": 0
         },
-        "Portals": [
-            {
-                "Level": 1,
-                "Name": "entityTracking",
-                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
-            }
-        ],
+        "Portals": [],
         "Push": {
             "Level": 0
         },
