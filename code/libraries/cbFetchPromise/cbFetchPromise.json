@@ -1,0 +1,8 @@
+{
+    "api": "",
+    "dependencies": "QPromiseLib",
+    "description": "",
+    "name": "cbFetchPromise",
+    "version": 1,
+    "visibility": "system"
+}
