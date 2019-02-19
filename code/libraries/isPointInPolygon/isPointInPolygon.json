@@ -1,0 +1,8 @@
+{
+    "api": "",
+    "dependencies": "geo",
+    "description": "isPointInPolygon(point, polygon)",
+    "name": "isPointInPolygon",
+    "version": 1,
+    "visibility": "system"
+}
