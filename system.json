@@ -1,0 +1,10 @@
+{
+    "auth": true,
+    "deployments": [],
+    "description": "Real time tracking and event detection for your IoT assets.",
+    "messaging_url": "platform.clearblade.com:1883",
+    "name": "real-time-tracking",
+    "platform_url": "https://dev.clearblade.com",
+    "system_key": "fa8fbac60bde9d8deba3dc9d9dd401",
+    "system_secret": ""
+}
