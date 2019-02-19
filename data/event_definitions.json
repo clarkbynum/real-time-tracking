@@ -1,0 +1,114 @@
+{
+    "app_id": "fa8fbac60bde9d8deba3dc9d9dd401",
+    "collection_id": "8290bac60be6b193c1aaaa9bc6ce01",
+    "items": [
+        {
+            "area_id": null,
+            "area_type_id": null,
+            "description": "",
+            "entity2_id": "",
+            "entity_id": null,
+            "entity_type2_id": "ab9bead6-73dc-4559-9ac4-06d270a473b5",
+            "entity_type_id": "ab9bead6-73dc-4559-9ac4-06d270a473b5",
+            "event_type_id": "f913724e-2929-42c4-97c0-f78d6b596fb7",
+            "is_inside": false,
+            "item_id": "0be4bcac-fb36-44ab-a690-9dd1099f09c2",
+            "name": "Any person* is farther than 50 Meters from Any person*",
+            "threshold": 50,
+            "together_word": "is farther than 50 Meters from",
+            "updated_at": "2019-02-12T15:09:53.965Z"
+        },
+        {
+            "area_id": "8140ac78-44c5-4156-9a87-a5c0f141851d",
+            "area_type_id": null,
+            "description": "",
+            "entity2_id": "",
+            "entity_id": null,
+            "entity_type2_id": null,
+            "entity_type_id": null,
+            "event_type_id": "92976540-afd1-4b47-8f5f-52386e6bff68",
+            "is_inside": true,
+            "item_id": "6103a550-36fc-4096-b589-06247830ff63",
+            "name": "Any Entity is inside square",
+            "threshold": 0,
+            "together_word": "is inside",
+            "updated_at": "2019-02-12T16:41:29.784Z"
+        }
+    ],
+    "name": "event_definitions",
+    "permissions": {
+        "Administrator": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "description",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "area_id",
+            "ColumnType": "uuid",
+            "PK": false
+        },
+        {
+            "ColumnName": "entity_id",
+            "ColumnType": "uuid",
+            "PK": false
+        },
+        {
+            "ColumnName": "entity2_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "entity_type_id",
+            "ColumnType": "uuid",
+            "PK": false
+        },
+        {
+            "ColumnName": "entity_type2_id",
+            "ColumnType": "uuid",
+            "PK": false
+        },
+        {
+            "ColumnName": "is_inside",
+            "ColumnType": "bool",
+            "PK": false
+        },
+        {
+            "ColumnName": "threshold",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "event_type_id",
+            "ColumnType": "uuid",
+            "PK": false
+        },
+        {
+            "ColumnName": "updated_at",
+            "ColumnType": "timestamp",
+            "PK": false
+        },
+        {
+            "ColumnName": "together_word",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "area_type_id",
+            "ColumnType": "uuid",
+            "PK": false
+        }
+    ]
+}
