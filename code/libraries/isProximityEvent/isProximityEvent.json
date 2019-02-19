@@ -1,0 +1,8 @@
+{
+    "api": "",
+    "dependencies": "makeName",
+    "description": "",
+    "name": "isProximityEvent",
+    "version": 1,
+    "visibility": "system"
+}
