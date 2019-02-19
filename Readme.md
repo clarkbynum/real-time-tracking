@@ -14,6 +14,8 @@ Only setup required is a user with the `Administrator` role. This system include
 
 ## Usage
 
+![](graph.png)
+
 To simulate the event detection go to the `Setup` page of the `entityTracking` portal and click the `Generate Fake Movement` button then go back to the `Home` page. Entities will move around the map and the events list will refresh as new events are detected. This is accomplished by publishing tag positions to the `section1/tag/{tagName}` which is then processed by the `processTagMessage` code service. If any rules are broken based on the event definitions a message is published on the `eventTriggered` topic.
 
 ## Assets
