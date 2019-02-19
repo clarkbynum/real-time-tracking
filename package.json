@@ -1,0 +1,33 @@
+{
+    "asset_types": [
+        "Code Libraries",
+        "Code Services",
+        "Collections",
+        "Devices",
+        "Edges",
+        "Portals",
+        "Roles",
+        "Triggers",
+        "Users"
+    ],
+    "author": {
+        "email": "cbynum@clearblade.com"
+    },
+    "clouds": [],
+    "description": "Real time tracking and event detection for your IoT assets.",
+    "domains": [],
+    "gateways": [],
+    "image_url": "https://i.imgur.com/l0rfSGq.png",
+    "keywords": [
+        "clearblade",
+        "iot",
+        "platform"
+    ],
+    "license": "MIT",
+    "name": "real-time-tracking",
+    "private": false,
+    "prog_lang": [],
+    "protocols": [],
+    "things": [],
+    "version": "1.0.0"
+}
