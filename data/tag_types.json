@@ -1,0 +1,30 @@
+{
+    "app_id": "fa8fbac60bde9d8deba3dc9d9dd401",
+    "collection_id": "8490bac60ba0e39c96ba9a9bc803",
+    "items": [
+        {
+            "item_id": "1a95d0de-2b64-412d-aa47-c61f224cc1a9",
+            "name": "Tag Type Two"
+        },
+        {
+            "item_id": "ad353bb1-275e-4f36-9a7d-8a734cb99f56",
+            "name": "Tag Type One"
+        }
+    ],
+    "name": "tag_types",
+    "permissions": {
+        "Administrator": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "name",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
