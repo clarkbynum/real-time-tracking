@@ -1,0 +1,58 @@
+{
+    "app_id": "fa8fbac60bde9d8deba3dc9d9dd401",
+    "collection_id": "fc8fbac60bd0faeab3a9d9e0f8b101",
+    "items": [
+        {
+            "entity_type_id": "ab9bead6-73dc-4559-9ac4-06d270a473b5",
+            "item_id": "01956cc0-1c92-43f1-9fa9-76f202338359",
+            "name": "Tom",
+            "x_pos": 40,
+            "y_pos": 82
+        },
+        {
+            "entity_type_id": "24dcf52a-59a2-4389-a849-17ffc9ab3e7a",
+            "item_id": "c96ea530-8e09-4287-a8cb-888ff115bb44",
+            "name": "Spot",
+            "x_pos": 58,
+            "y_pos": 65
+        },
+        {
+            "entity_type_id": "ab9bead6-73dc-4559-9ac4-06d270a473b5",
+            "item_id": "d03c06c9-c3b7-4b21-97be-e1dfcfc245a9",
+            "name": "Kevin",
+            "x_pos": 28,
+            "y_pos": 66
+        }
+    ],
+    "name": "entities",
+    "permissions": {
+        "Administrator": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "entity_type_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "x_pos",
+            "ColumnType": "float",
+            "PK": false
+        },
+        {
+            "ColumnName": "y_pos",
+            "ColumnType": "float",
+            "PK": false
+        }
+    ]
+}
