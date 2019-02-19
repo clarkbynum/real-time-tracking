@@ -1,0 +1,50 @@
+{
+    "app_id": "fa8fbac60bde9d8deba3dc9d9dd401",
+    "collection_id": "8490bac60bfee8cebca1aba0d0ef01",
+    "items": [
+        {
+            "entity_id": "d03c06c9-c3b7-4b21-97be-e1dfcfc245a9",
+            "item_id": "2fc7bdd7-2fb0-44b4-b299-01f44846c771",
+            "name": "10",
+            "tag_type_id": "ad353bb1-275e-4f36-9a7d-8a734cb99f56"
+        },
+        {
+            "entity_id": "01956cc0-1c92-43f1-9fa9-76f202338359",
+            "item_id": "d5488ee5-bf75-435d-a5ce-2572cb52cdc5",
+            "name": "11",
+            "tag_type_id": "ad353bb1-275e-4f36-9a7d-8a734cb99f56"
+        },
+        {
+            "entity_id": "c96ea530-8e09-4287-a8cb-888ff115bb44",
+            "item_id": "f17f664f-a911-400d-84ac-e5aa5aa74fa9",
+            "name": "12",
+            "tag_type_id": "ad353bb1-275e-4f36-9a7d-8a734cb99f56"
+        }
+    ],
+    "name": "tags",
+    "permissions": {
+        "Administrator": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "tag_type_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "entity_id",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
