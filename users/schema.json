@@ -1,0 +1,22 @@
+{
+    "columns": [
+        {
+            "ColumnName": "user_id",
+            "ColumnType": "string",
+            "PK": true
+        },
+        {
+            "ColumnName": "first_name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "last_name",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ],
+    "permissions": {
+        "Administrator": 15
+    }
+}
