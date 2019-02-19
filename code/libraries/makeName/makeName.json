@@ -1,0 +1,8 @@
+{
+    "api": "",
+    "dependencies": "",
+    "description": "makeName({ eventDef, entity, entity2, area })",
+    "name": "makeName",
+    "version": 1,
+    "visibility": "system"
+}
