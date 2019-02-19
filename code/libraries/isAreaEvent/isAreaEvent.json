@@ -1,0 +1,8 @@
+{
+    "api": "",
+    "dependencies": "makeName,isPointInPolygon",
+    "description": "",
+    "name": "isAreaEvent",
+    "version": 1,
+    "visibility": "system"
+}
