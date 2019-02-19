@@ -1,0 +1,8 @@
+{
+    "api": "",
+    "dependencies": "QPromiseLib,cbUpdatePromise,cbCreatePromise,isProximityEvent,isAreaEvent",
+    "description": "",
+    "name": "createOrEndEvent",
+    "version": 1,
+    "visibility": "system"
+}
