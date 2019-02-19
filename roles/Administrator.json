@@ -1,0 +1,431 @@
+{
+    "Description": "Default role that is applied to a user who has rights to everything",
+    "ID": "Administrator",
+    "Name": "Administrator",
+    "Permissions": {
+        "AllCollections": {
+            "Level": 0
+        },
+        "AllServices": {
+            "Level": 0
+        },
+        "CodeServices": [
+            {
+                "Level": 1,
+                "Name": "clearOldEvents",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "createAnchors",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "createAreaTypes",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "createAreas",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "createEntities",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "createEntityTypes",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "createEventDefinitions",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "createEvents",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "createTagTypes",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "createTags",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "createUsers",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "createViews",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "deleteAnchors",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "deleteAreaTypes",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "deleteAreas",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "deleteEntities",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "deleteEntityTypes",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "deleteEventDefinitions",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "deleteEvents",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "deleteTagTypes",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "deleteTags",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "deleteViews",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "fetchAnchors",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "fetchAreaTypes",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "fetchAreas",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "fetchEntities",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "fetchEntityTypes",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "fetchEventActivity",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "fetchEventDefinitionTypes",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "fetchEventDefinitions",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "fetchEvents",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "fetchTagTypes",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "fetchTags",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "fetchViews",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "generateFakeMovement",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "getEntityMessageHistory",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "processTagMessage",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "processTagMessageLRS",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "restartProcessTagMessageLRS",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "test_createOrEndEvent",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "test_distanceToPoly",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "test_isAreaEvent",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "test_isPointInPolygon",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "test_isProximityEvent",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "test_shouldCreateOrEndEvent",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "updateAnchors",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "updateAreaTypes",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "updateAreas",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "updateEntities",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "updateEntityTypes",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "updateEventDefinitions",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "updateEvents",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "updateTagTypes",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "updateTags",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "updateUsers",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 1,
+                "Name": "updateViews",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            }
+        ],
+        "Collections": [
+            {
+                "Columns": [],
+                "ID": "fa8fbac60bf499abd3fdace4c27d",
+                "Items": [],
+                "Level": 15,
+                "Name": "anchors"
+            },
+            {
+                "Columns": [],
+                "ID": "fa8fbac60bd285d8acb5eebfd6e401",
+                "Items": [],
+                "Level": 15,
+                "Name": "area_types"
+            },
+            {
+                "Columns": [],
+                "ID": "fc8fbac60bfa86b0f8c4b4dce4a401",
+                "Items": [],
+                "Level": 15,
+                "Name": "areas"
+            },
+            {
+                "Columns": [],
+                "ID": "fc8fbac60bd0faeab3a9d9e0f8b101",
+                "Items": [],
+                "Level": 15,
+                "Name": "entities"
+            },
+            {
+                "Columns": [],
+                "ID": "fc8fbac60ba09fadd68691a8d431",
+                "Items": [],
+                "Level": 15,
+                "Name": "entity_types"
+            },
+            {
+                "Columns": [],
+                "ID": "fc8fbac60bf0fae28f928fc5c13c",
+                "Items": [],
+                "Level": 15,
+                "Name": "event_activity"
+            },
+            {
+                "Columns": [],
+                "ID": "8290bac60bdc9fc1a8f58ed4d172",
+                "Items": [],
+                "Level": 15,
+                "Name": "event_definition_types"
+            },
+            {
+                "Columns": [],
+                "ID": "8290bac60be6b193c1aaaa9bc6ce01",
+                "Items": [],
+                "Level": 15,
+                "Name": "event_definitions"
+            },
+            {
+                "Columns": [],
+                "ID": "8490bac60bde82a7b9f5b3d8ffcd01",
+                "Items": [],
+                "Level": 15,
+                "Name": "events"
+            },
+            {
+                "Columns": [],
+                "ID": "8490bac60ba0e39c96ba9a9bc803",
+                "Items": [],
+                "Level": 15,
+                "Name": "tag_types"
+            },
+            {
+                "Columns": [],
+                "ID": "8490bac60bfee8cebca1aba0d0ef01",
+                "Items": [],
+                "Level": 15,
+                "Name": "tags"
+            },
+            {
+                "Columns": [],
+                "ID": "8690bac60b9c95918ebbf2e8bb69",
+                "Items": [],
+                "Level": 15,
+                "Name": "views"
+            }
+        ],
+        "Deployments": {
+            "Level": 15
+        },
+        "DevicesList": {
+            "Level": 15
+        },
+        "EdgesList": {
+            "Level": 15
+        },
+        "MsgHistory": {
+            "Level": 9
+        },
+        "Portals": [
+            {
+                "Level": 5,
+                "Name": "entityTracking",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 5,
+                "Name": "adam_eventGrid",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            },
+            {
+                "Level": 5,
+                "Name": "adam_internalResourcify",
+                "SystemKey": "fa8fbac60bde9d8deba3dc9d9dd401"
+            }
+        ],
+        "Push": {
+            "Level": 0
+        },
+        "Roles": {
+            "Level": 15
+        },
+        "Timers": {
+            "Level": 15
+        },
+        "Topics": [
+            {
+                "Level": 3,
+                "Name": "#"
+            }
+        ],
+        "Triggers": {
+            "Level": 15
+        },
+        "UsersList": {
+            "Level": 15
+        }
+    }
+}
