@@ -1,0 +1,16 @@
+{
+    "auto_balance": false,
+    "auto_restart": false,
+    "concurrency": 1,
+    "current_version": 1,
+    "dependencies": "cbUpdatePromise,QPromiseLib,cbCreatePromise,cbFetchPromise,createOrEndEvent,clearblade",
+    "execution_timeout": -1,
+    "logging_enabled": false,
+    "name": "processTagMessageLRS",
+    "params": [],
+    "permissions": {
+        "Administrator": 1
+    },
+    "run_user": "",
+    "source": "processTagMessageLRS.js"
+}
