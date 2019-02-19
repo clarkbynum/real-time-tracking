@@ -1,0 +1,39 @@
+{
+    "app_id": "fa8fbac60bde9d8deba3dc9d9dd401",
+    "collection_id": "fa8fbac60bd285d8acb5eebfd6e401",
+    "items": [
+        {
+            "display_icon": "",
+            "item_id": "0d1d20e4-55e8-4cd2-b2e1-033bafa9a06f",
+            "name": "hazardous zone"
+        },
+        {
+            "display_icon": "",
+            "item_id": "b0179e10-5509-49e9-9fdb-8cc413913f08",
+            "name": "office"
+        }
+    ],
+    "name": "area_types",
+    "permissions": {
+        "Administrator": 15,
+        "Anonymous": 0,
+        "Authenticated": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "display_icon",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
