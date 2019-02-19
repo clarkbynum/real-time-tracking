@@ -1,0 +1,58 @@
+{
+    "app_id": "fa8fbac60bde9d8deba3dc9d9dd401",
+    "collection_id": "fa8fbac60bf499abd3fdace4c27d",
+    "items": [
+        {
+            "item_id": "09052e72-2684-42c8-96cb-592e11431129",
+            "name": "anchor one",
+            "view_id": "712b60f7-ef24-45ae-ae98-f5d357ce0af0",
+            "x_pos": 0,
+            "y_pos": 0
+        },
+        {
+            "item_id": "922d7b61-b69b-46c0-b6bc-45a0bd59d591",
+            "name": "anchor3",
+            "view_id": "712b60f7-ef24-45ae-ae98-f5d357ce0af0",
+            "x_pos": 1,
+            "y_pos": 1
+        },
+        {
+            "item_id": "9a839734-91fb-4519-8368-0cd79e8948d4",
+            "name": "anchor 2",
+            "view_id": "712b60f7-ef24-45ae-ae98-f5d357ce0af0",
+            "x_pos": 0,
+            "y_pos": 0
+        }
+    ],
+    "name": "anchors",
+    "permissions": {
+        "Administrator": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "view_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "x_pos",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "y_pos",
+            "ColumnType": "int",
+            "PK": false
+        }
+    ]
+}
